@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Study.Games">
+    <ContentPage.Content>
+        <StackLayout>
+			<Label Text="Games"
+                VerticalOptions="Start" 
+                HorizontalOptions="Center"/>
+			<ScrollView Orientation="Horizontal" WidthRequest="100" HeightRequest="600">
+				<StackLayout Orientation="Horizontal">
+                    <StackLayout Orientation="Vertical">
+                        <ImageButton 
+                        Source="match.png" 
+                        Clicked="match_Click"
+                        WidthRequest="208"
+                        HeightRequest="200"/>
+                        <Label Text="High Score"
+                               Font="bold,20"
+                               HorizontalOptions="Center"/>
+                        <Label x:Name="matchScore"
+                               Text="Demo 0"
+                               HorizontalOptions="Center"/>
+                    </StackLayout>
+                    <StackLayout>
+                    <ImageButton 
+                        Source="memory.png"
+                        Clicked="memory_Click"
+                        WidthRequest="208"
+                        HeightRequest="200"/>
+                        <Label Text="High Score"
+                               Font="bold,20"
+                               HorizontalOptions="Center"/>
+                        <Label x:Name="memoryScore"
+                               Text="Demo 0"
+                               HorizontalOptions="Center"/>
+                    </StackLayout>
+                    <StackLayout>
+                    <ImageButton 
+                        Source="test.png"
+                        Clicked="test_Click"
+                        WidthRequest="208"
+                        HeightRequest="200"/>
+                        <Label Text="High Score"
+                               Font="bold,20"
+                               HorizontalOptions="Center"/>
+                        <Label x:Name="testScore"
+                               Text="Demo 0"
+                               HorizontalOptions="Center"/>
+                    </StackLayout>
+				</StackLayout>
+			</ScrollView>
+		</StackLayout>
+    </ContentPage.Content>
+</ContentPage>

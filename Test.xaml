@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Study.Test">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="title"
+                   Text="Test  Score: "
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Center" />
+            <Label x:Name="question"
+                   Text="1) question"/>
+            <Button x:Name="a"
+                    Text="A)"
+                    Clicked="a_Click"
+                    HeightRequest="80"/>
+            <Button x:Name="b"
+                    Text="B)" 
+                    Clicked="b_Click"
+                    HeightRequest="80"/>
+            <Button x:Name="c"
+                    Text="C)" 
+                    Clicked="c_Click"
+                    HeightRequest="80"/>
+            <Button x:Name="d"
+                    Text="D)" 
+                    Clicked="d_Click"
+                    HeightRequest="80"/>
+            <Button x:Name="next"
+                    Text="Next" 
+                    Clicked="next_Click"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

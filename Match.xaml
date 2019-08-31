@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Study.Match">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="title"
+                Text="Match Score: 0"
+                VerticalOptions="Start" 
+                HorizontalOptions="Center"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <StackLayout Orientation="Vertical">
+                    <Button x:Name="topic1"
+                            Text="topic1" 
+                            WidthRequest="150"
+                            HeightRequest="100"
+                            Clicked="topic1_Click"/>
+                    <Button x:Name="topic2"
+                            Text="topic2"
+                            WidthRequest="150"
+                            HeightRequest="100"
+                            Clicked="topic2_Click"/>
+                    <Button x:Name="topic3"
+                            Text="topic3" 
+                            WidthRequest="150"
+                            HeightRequest="100"
+                            Clicked="topic3_Click"/>
+                    <Button x:Name="topic4"
+                            Text="topic4"
+                            WidthRequest="150"
+                            HeightRequest="100"
+                            Clicked="topic4_Click"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical">
+                    <Button x:Name="point1"
+                            Text="point1" 
+                            WidthRequest="150"
+                            HeightRequest="100"
+                            Clicked="point1_Click"/>
+                    <Button x:Name="point2"
+                            Text="point2" 
+                            WidthRequest="150"
+                            HeightRequest="100"
+                            Clicked="point2_Click"/>
+                    <Button x:Name="point3"
+                            Text="point3" 
+                            WidthRequest="150"
+                            HeightRequest="100"
+                            Clicked="point3_Click"/>
+                    <Button x:Name="point4"
+                            Text="point4"
+                            WidthRequest="150"
+                            HeightRequest="100"
+                            Clicked="point4_Click"/>
+                </StackLayout>
+
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

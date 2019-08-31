@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Study.Memory">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="title"
+                    Text="Memory  Score: 0"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Center" />
+            <Label x:Name="page"
+                   HorizontalOptions="End"
+                   Text="1"/>
+            <Button x:Name="cardFace"
+                    Text="card face"
+                    Clicked="cardFace_Click"
+                    HorizontalOptions="Center"
+                    WidthRequest="350"
+                    HeightRequest="150"/>
+            <Entry x:Name="answer"
+                   Placeholder="Type answer here" />
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button x:Name="try"
+                    Text="Try" 
+                    Clicked="try_Click"/>
+                <Button x:Name="next"
+                    Text="Next" 
+                    Clicked="next_Click"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="fix"
+                    Text="I was right" 
+                        WidthRequest="120"
+                    Clicked="fix_Click"/>
+                <Button x:Name="wrong"
+                    Text="I was wrong" 
+                        WidthRequest="120"
+                    Clicked="wrong_Click"/>
+            </StackLayout>
+            <ScrollView Orientation="Vertical">
+                <Label x:Name="correct"
+                   Text="" />
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

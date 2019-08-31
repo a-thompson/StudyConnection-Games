@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Study.StudySets">
+    <ContentPage.Content>
+        <StackLayout x:Name="studysets">
+			<Label Text="Study Sets"
+                VerticalOptions="Start" 
+                HorizontalOptions="Center" />
+            <ScrollView HeightRequest="300">
+                <StackLayout x:Name="entire">
+                    <StackLayout x:Name="select"
+                         Orientation="Horizontal">
+                        <Button x:Name="all"
+				        Text=""
+                        HeightRequest="40"
+                        WidthRequest="40"
+				        Clicked="all_Click"/>
+                        <Label x:Name = "selectText"
+                       Text="Select All"
+                       VerticalOptions="Center"
+                       Font="Bold,20" />
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+            <Button x:Name="next"
+                    Text="Choose" 
+                    Clicked="next_Click"/>
+            <Label x:Name="error"
+                   HorizontalOptions="Center"
+                   Text="Select a study set!" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

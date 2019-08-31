@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Study"
+             x:Class="Study.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+		<Label Text="Study Connection" 
+           HorizontalOptions="Center"
+           VerticalOptions="Start" />
+		<Button Text="Events" 
+				HorizontalOptions="Center"
+				WidthRequest="150"
+				/>
+		<Button Text="Notes" 
+				HorizontalOptions="Center"
+				WidthRequest="150"
+				/>
+		<Button Text="Forum" 
+				HorizontalOptions="Center"
+				WidthRequest="150"
+				/>
+		<Button x:Name="btnGames"
+				Text="Games" 
+				HorizontalOptions="Center"
+				WidthRequest="150"
+				Clicked="games_Click"
+				/>
+        <ImageButton x:Name="sound"
+                    Source="audio.png" 
+                    Clicked="audio_Click"
+                    HorizontalOptions="Center"
+                    WidthRequest="50"
+                    HeightRequest="50"/>
+	</StackLayout>
+
+
+</ContentPage>

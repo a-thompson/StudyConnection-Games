@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Study.FinalScore">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="title"
+                   Text="Final Score"
+                   HorizontalOptions="Center"
+                   />
+            
+            <Label x:Name="finalScore"
+                   Text="0"
+                   Font="Bold,20"
+                   HorizontalOptions="Center"/>
+            <Label Text="High Score"
+                   Font="Bold,20"
+                   HorizontalOptions="Center"/>
+            <Label x:Name="highScore"
+                   Text="0"
+                   HorizontalOptions="Center"/>
+            <Button x:Name="main"
+                    Text="Main Menu"
+                    Clicked="main_Click"
+                    VerticalOptions="Center" />
+            <Button x:Name="studyset"
+                    Text="Study Sets" 
+                    Clicked="study_Click"/>
+            <Button x:Name="game"
+                    Text="Games" 
+                    Clicked="game_Click"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
