@@ -1,6 +1,6 @@
 # StudyConnection-Games Vertical Prototype
 ### Overview
-*For a class project, I designed the Games section of a study app called Study Connection.*
+*For a class project in CPSC 355 Human Computer Interactions, I designed the Games section of a study app called Study Connection.*
 >Users may select one or combine several study sets to play games.  The three games are meant to provide a variety of methods to study.  For example, Match is best used when studying short terms and Test is best used when studying more complex concepts.  Match and Test help a student study via recognition, while Memory helps a student study via recall.
 
 >I included an Audio option so visually impaired users may use the study game.  When Audio is on, minor changes, such as double clicks, are added to improve the usability.  Memory also includes several ways to input an answer: including text input and a quick-play version where the user input if they were correct after they see the answer.
