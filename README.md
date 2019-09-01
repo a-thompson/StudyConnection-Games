@@ -7,11 +7,11 @@
 
 >Initial tester feedback from my initial concept design suggested I create a game similar to a test, so the app may be usable for classes with more complex concepts.  The final vertical prototype is able to take multiple points from a topic, or points from several different topics, to create effective multiple choice questions.
 
->Features improved from the clickable wireframe include navigation, intuitivity, and modality.  When buttons were not intuitive, the user would often not know what to do and need instruction.  I focused on improving visibility of tasks on my vertical prototype, by including backgrounds in buttons, as well as more labels.  The carousel now has a picture hanging off the page frame, so a user knows they may scroll with it.  The Memory app also had its multi-modality improved, as I created quick-play buttons.  The Match app was also improved to add a de-select option.  The audio button was added to the home page so a user can control the sound for the entire app in an easy to find location.
+>Features improved from the clickable wireframe include navigation, intuitivity, and modality.  When buttons were not intuitive, the user would often not know what to do and need instruction.  I focused on improving visibility of tasks on my vertical prototype, by including backgrounds in buttons, as well as more labels.  The carousel now has a picture hanging off the page frame, so a user knows they may scroll with it.  The Memory app also had its multi-modality improved, as I created quick-play buttons.  The Match app was also improved to add a de-select option.  The audio button was moved to the home page so a user can control the sound for the entire app in an easy to find location.
 
 ### Demo
 [![Study Connection](https://i.imgur.com/Az9T6Fi.png)](https://www.youtube.com/watch?v=v97k00CnoWY "Study Connection - Click to Watch!")
-*This prototype was built for an Android 8.1 API 27 using Microsoft Visual Studio.*
+*This prototype was built for an Android 8.1 API 27 using Microsoft Visual Studio and Xamarin Cross-Platform.*
 
 #### Pages
 * App.xaml
